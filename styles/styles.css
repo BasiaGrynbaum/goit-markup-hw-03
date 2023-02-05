@@ -10,6 +10,30 @@ a {
 body {
   font-family: "Roboto", sans-serif;
 }
+header {
+  position: absolute;
+  width: 1600px;
+  height: 80px;
+  left: 0px;
+  top: 0px;
+}
+
+.foot-index {
+  position: absolute;
+  width: 1600px;
+  height: 252px;
+  left: 0px;
+  top: 2097px;
+}
+
+.foot-portfolio {
+  position: absolute;
+  width: 1600px;
+  height: 252px;
+  left: 0px;
+  top: 1628px;
+}
+
 .white {
   color: #ffffff;
   font-family: "Raleway", sans-serif;
