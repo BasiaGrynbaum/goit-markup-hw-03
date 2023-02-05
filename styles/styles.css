@@ -1,3 +1,9 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 :root {
   --brand-color: #2196f3;
 }
@@ -10,6 +16,7 @@ a {
 body {
   font-family: "Roboto", sans-serif;
 }
+
 header {
   position: absolute;
   width: 1600px;
@@ -129,11 +136,17 @@ a:visited {
   line-height: 1.66;
   text-align: center;
   letter-spacing: 0.03em;
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
 }
 .main-button:hover {
   text-decoration: underline;
   background-color: #8a407e;
 }
+
 .font-weight {
   font-weight: 700;
 }
@@ -159,17 +172,47 @@ a:visited {
   font-size: 16px;
   line-height: 1.19;
 }
+.h1 {
+  position: absolute;
+  width: 696px;
+  height: 120px;
+  left: 452px;
+  top: 200px;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 3.75;
+  text-align: center;
+  margin: auto;
+
+}
+
 .main-section {
   background-color: #2f303a;
   color: #ffffff;
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 60px;
+  position: absolute;
+  width: 1600px;
+  height: 600px;
+  left: 0px;
+  top: 80px;
 }
+.list-section {
+  display: inline;
+  position: absolute;
+  width: 1170px;
+  height: 101px;
+  left: 215px;
+  top: 774px;
+}
+
 .header-sec {
   font-weight: 700;
   font-size: 36px;
   line-height: 2.63;
+  position: absolute;
+  width: 352px;
+  height: 42px;
+  left: 624px;
+  top: 969px;
 }
 .header-third {
   font-weight: 700;
@@ -180,4 +223,9 @@ a:visited {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.5;
+  position: absolute;
+  width: 270px;
+  height: 75px;
+  left: 215px;
+  top: 800px;
 }
