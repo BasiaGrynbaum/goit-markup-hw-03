@@ -1,0 +1,159 @@
+:root {
+  --brand-color: #2196f3;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+.white {
+  color: #ffffff;
+  font-family: "Raleway", sans-serif;
+}
+.footer {
+  background-color: #2f303a;
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.94;
+  letter-spacing: 0.03em;
+}
+
+address {
+  font-style: normal;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1;
+}
+.fontcolor-foot {
+  color: var(--brand-color);
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.94;
+  letter-spacing: 0.03em;
+}
+
+.fonthead {
+  color: #212121;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1;
+  letter-spacing: 0.02em;
+}
+.fontweb {
+  font-family: "Raleway", sans-serif;
+  color: #212121;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.94;
+}
+.fontcolor {
+  color: var(--brand-color);
+  font-family: "Raleway", sans-serif;
+}
+.fontcolor:visited {
+  color: var(--brand-color);
+}
+
+a:hover {
+  color: var(--brand-color);
+  cursor: pointer;
+}
+a:focus {
+  color: var(--brand-color);
+  cursor: pointer;
+}
+
+.contact {
+  color: #757575;
+  font-style: normal;
+}
+
+a:visited {
+  color: #212121;
+}
+.button:hover {
+  background-color: #2196f3;
+  color: #ffffff;
+  cursor: pointer;
+}
+.button:focus {
+  background-color: #2196f3;
+  cursor: pointer;
+}
+.button {
+  background: #f5f4fa;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.66;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.main-button {
+  background: #2196f3;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.66;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.main-button:hover {
+  text-decoration: underline;
+  background-color: #8a407e;
+}
+.font-weight {
+  font-weight: 700;
+}
+.box-title {
+  color: #212121;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2.25;
+}
+.box-category {
+  color: #757575;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+}
+.img-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+.img-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+}
+.main-section {
+  background-color: #2f303a;
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+}
+.header-sec {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 2.63;
+}
+.header-third {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1;
+}
+.list {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+}
